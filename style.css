@@ -1,0 +1,39 @@
+body {
+  background-color: #9eeaf0;
+  color: #fff;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 200px;
+  background-color: #1f437c;
+  padding: 8rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+#joke-output p {
+  font-size: 1.7rem;
+}
+
+button {
+  background-color: #fff;
+  color: #1f437c;
+  transition: transform 0.3s ease-in;
+  font-size: 1.7rem;
+}
+
+button:hover {
+  color: #9eeaf0;
+  transform: translateY(-3px);
+}
